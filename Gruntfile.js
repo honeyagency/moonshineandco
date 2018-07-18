@@ -30,7 +30,7 @@ module.exports = function(grunt) {
                     sourceMap: false
                 },
                 files: {
-                    '<%= conf.app %>/main.min.css': '_sass/main.scss',
+                    '<%= conf.app %>/main.min.css': '_scss/main.scss',
                 }
             }
         },

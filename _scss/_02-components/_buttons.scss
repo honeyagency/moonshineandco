@@ -1,0 +1,23 @@
+.button {
+    border: 2px solid;
+    padding: 0.4em 1em;
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 0;
+    letter-spacing: 3px;
+}
+
+.vote {
+    // @include media($max-sm) {
+    //     position: fixed;
+    //     bottom: 0;
+    //     left: 0;
+    //     right: 0;
+    //     width: 100%;
+    //     text-align: center;
+    //     padding: 2em 0;
+    //     background: $green;
+    //     color: white !important;
+    //     border: 0;
+    // }
+}

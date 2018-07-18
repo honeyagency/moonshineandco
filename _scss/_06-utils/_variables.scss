@@ -1,6 +1,6 @@
 $link-color: #4aa4ff;
 
-$default-font: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !default;
+$default-font: "neuzeit-grotesk", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !default;
 
 $base-serif-font:$default-font;
 $base-sans-font:$default-font;
@@ -18,7 +18,7 @@ $max-width: (
 	xl: 	1640px
 );
 
-$max-wrap: 1280px;
+$max-wrap: 620px;
 
 $base-animation: cubic-bezier(0.4, 0.01, 0.165, 0.99);
 

@@ -1,0 +1,28 @@
+.icon-tiger {
+    width: 160px;
+    display: inline-block;
+    position: relative;
+    top: 3em;
+    left: 3em;
+    @include media($screen-xs){}
+    @include media($screen-sm){
+    	min-height: 300px;
+    }
+    @include media($max-sm) {
+        width: 100px;
+        top: 1em;
+        left: 1em;
+        // opacity: 0.4;
+        margin-bottom: 2em;
+    }
+}
+
+.icon-instagram {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+
+    svg {
+        width: 100%;
+    }
+}
